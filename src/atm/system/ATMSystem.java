@@ -142,7 +142,8 @@ public class ATMSystem {
                             } else {
                                 System.out.println("Insufficient funds");
                             }
-                            
+                            break;
+                     
                         case 2:
                             System.out.println("Enter recepient's account number: ");
                             int acctno1 = input.nextInt();
@@ -154,7 +155,10 @@ public class ATMSystem {
                             } else {
                                 System.out.println("Insufficient funds");
                             }
+                            break;
                     }   
+                case 3:
+                    System.out.println(balance);
             }
         }
         else{
